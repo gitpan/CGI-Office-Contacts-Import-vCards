@@ -1,0 +1,51 @@
+---
+abstract: 'Import vCards for use by CGI::Office::Contacts'
+author:
+  - 'Ron Savage <ron@savage.net.au>'
+build_requires:
+  Test::More: 0
+  Test::Pod: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3601'
+license: artistic
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: CGI-Office-Contacts-Import-vCards
+provides:
+  CGI::Office::Contacts::Import::vCards:
+    file: lib/CGI/Office/Contacts/Import/vCards.pm
+    version: 1.00
+  CGI::Office::Contacts::Import::vCards::Controller:
+    file: lib/CGI/Office/Contacts/Import/vCards/Controller.pm
+    version: 1.00
+  CGI::Office::Contacts::Import::vCards::Controller::Import:
+    file: lib/CGI/Office/Contacts/Import/vCards/Controller/Import.pm
+    version: 1.00
+  CGI::Office::Contacts::Import::vCards::Controller::Initialize:
+    file: lib/CGI/Office/Contacts/Import/vCards/Controller/Initialize.pm
+    version: 1.00
+  CGI::Office::Contacts::Import::vCards::Util::Config:
+    file: lib/CGI/Office/Contacts/Import/vCards/Util/Config.pm
+    version: 1.00
+  CGI::Office::Contacts::Import::vCards::Util::vCards:
+    file: lib/CGI/Office/Contacts/Import/vCards/Util/vCards.pm
+    version: 1.00
+  CGI::Office::Contacts::Import::vCards::View:
+    file: lib/CGI/Office/Contacts/Import/vCards/View.pm
+    version: 1.00
+  CGI::Office::Contacts::Import::vCards::View::vCards:
+    file: lib/CGI/Office/Contacts/Import/vCards/View/vCards.pm
+    version: 1.00
+requires:
+  CGI::Office::Contacts: 0
+  Text::DoubleMetaphone: 0
+  Text::GenderFromName: 0
+  Text::vFile::toXML: 0
+  XML::Handler::YAWriter: 0
+  XML::SAX::Base: 0
+  XML::SAX::ParserFactory: 0
+resources:
+  license: http://opensource.org/licenses/artistic-license.php
+version: 1.00
