@@ -10,7 +10,7 @@ use CGI::Office::Contacts::Import::vCards::View;
 
 use Log::Dispatch;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 # -----------------------------------------------
 
@@ -40,7 +40,7 @@ sub cgiapp_prerun
 	# o CGI::Office::Contacts::Donations
 	# o CGI::Office::Contacts::Import::vCards
 
-	$self -> SUPER::cgiapp_prerun;
+	$self -> global_prerun;
 
 	# Set up the view.
 

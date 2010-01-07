@@ -8,7 +8,7 @@ extends 'CGI::Office::Contacts::View::Base';
 
 use namespace::autoclean;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 # -----------------------------------------------
 
